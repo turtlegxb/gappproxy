@@ -1,0 +1,190 @@
+<ui version="4.0" >
+ <class>MainForm</class>
+ <widget class="QWidget" name="MainForm" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>161</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>GAppProxy</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox" >
+   <property name="geometry" >
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>381</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="title" >
+    <string>Setup</string>
+   </property>
+   <widget class="QCheckBox" name="proxyCheckBox" >
+    <property name="geometry" >
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>120</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>Use Local Proxy:</string>
+    </property>
+    <property name="checkable" >
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="proxyEdit" >
+    <property name="enabled" >
+     <bool>false</bool>
+    </property>
+    <property name="geometry" >
+     <rect>
+      <x>130</x>
+      <y>20</y>
+      <width>240</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="fetchserverEdit" >
+    <property name="enabled" >
+     <bool>false</bool>
+    </property>
+    <property name="geometry" >
+     <rect>
+      <x>130</x>
+      <y>50</y>
+      <width>240</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="fetchserverCheckBox" >
+    <property name="geometry" >
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>120</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>Use FetchServer:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="applyButton" >
+    <property name="geometry" >
+     <rect>
+      <x>70</x>
+      <y>80</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>Apply</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="saveButton" >
+    <property name="geometry" >
+     <rect>
+      <x>240</x>
+      <y>80</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>Save</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="hideButton" >
+   <property name="geometry" >
+    <rect>
+     <x>170</x>
+     <y>130</y>
+     <width>60</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>Hide</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="helpButton" >
+   <property name="geometry" >
+    <rect>
+     <x>170</x>
+     <y>90</y>
+     <width>60</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>Help</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="aboutButton" >
+   <property name="geometry" >
+    <rect>
+     <x>240</x>
+     <y>130</y>
+     <width>60</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>About</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="quitButton" >
+   <property name="geometry" >
+    <rect>
+     <x>310</x>
+     <y>130</y>
+     <width>60</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>Quit</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="statusButton" >
+   <property name="geometry" >
+    <rect>
+     <x>30</x>
+     <y>130</y>
+     <width>60</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>Status</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="serviceButton" >
+   <property name="geometry" >
+    <rect>
+     <x>100</x>
+     <y>130</y>
+     <width>60</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>Service</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
