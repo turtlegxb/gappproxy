@@ -1,0 +1,13 @@
+MANIFEST
+/build
+/dist
+/tmp
+/doc
+*.py[cdo]
+*.swp
+*.swo
+mitmproxyc
+mitmdumpc
+.coverage
+netlib
+libpathod
